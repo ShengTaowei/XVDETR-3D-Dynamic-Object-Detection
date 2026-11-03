@@ -188,6 +188,8 @@ Point the config at a crop directory with `dataset.sat_dir`.
 
 ## 3. Training and evaluation
 
+The data preparation codes have been released, but the codes for model design will be relased after the paper has been accepted. 
+
 ```bash
 # single GPU
 bash train.sh 0 --config config/monocop_car_satgeo.yaml
@@ -205,8 +207,7 @@ python train_val.py --config config/monocop_car_satgeo.yaml \
 
 ## Model Zoo
 
-Released upon acceptance. Each entry will ship with a `sha256` and the exact
-`AP|R40` it reproduces.
+The training logs and the main checkpoint have been relased to enhance the credibility of the article for the reviewers. The remain checkpoints will be released upon acceptance.
 
 | Setting | AP3D E / M / H | Checkpoint | Training log |
 |:---|:---|:---|:---|
