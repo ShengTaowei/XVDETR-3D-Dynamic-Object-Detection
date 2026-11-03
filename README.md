@@ -40,24 +40,6 @@ pathway.
 </p>
 
 
-## Main results
-
-**KITTI val**, Car, `AP|R40`, IoU = 0.7:
-
-| Method | Extra data | AP3D E / M / H | APBEV E / M / H |
-|:---|:---|:---|:---|
-| MonoDETR (ICCV23) | None | 28.84 / 20.61 / 16.38 | 37.86 / 26.95 / 22.80 |
-| MonoDGP (CVPR25) | None | 30.76 / 22.34 / 19.02 | 39.40 / 28.20 / 24.42 |
-| MonoCoP (CVPR26, baseline) | None | 32.06 / 23.98 / 20.64 | 42.20 / 31.29 / 27.58 |
-| **XVDETR (ours)** | **Satellite** | **34.75 / 24.85 / 21.20** | **44.72 / 32.30 / 28.18** |
-
-**nuScenes val** (KITTI-style conversion, front camera), Car:
-
-| Method | AP3D@0.5 E / M | APBEV@0.5 E / M | AP3D@0.7 E / M | APBEV@0.7 E / M |
-|:---|:---|:---|:---|:---|
-| MonoCoP (baseline) | 33.70 / 30.37 | 38.01 / 33.72 | 10.34 / 8.97 | 18.00 / 15.91 |
-| **XVDETR (ours)** | **36.29 / 32.14** | **39.90 / 36.39** | **12.20 / 10.64** | **20.21 / 17.96** |
-
 ---
 
 ## 1. Environment setup
