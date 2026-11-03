@@ -229,8 +229,8 @@ Released upon acceptance. Each entry will ship with a `sha256` and the exact
 | Setting | AP3D E / M / H | Checkpoint | Training log |
 |:---|:---|:---|
 | KITTI Car (`monocop_car_satgeo`) | 34.75 / 24.85 / 21.20 | coming soon | [Training Log](assets/kitti_val.log) |
-| KITTI 3-class (Ped / Cyc) | see Table IV | coming soon | |
-| nuScenes front camera | see Table VIII | coming soon | |
+| KITTI 3-class (Ped / Cyc) | see Table IV | coming soon | 
+| nuScenes front camera | see Table VIII | coming soon | 
 
 ---
 
