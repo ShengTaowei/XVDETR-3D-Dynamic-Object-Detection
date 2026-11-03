@@ -211,7 +211,7 @@ The training logs and the main checkpoint have been relased to enhance the credi
 
 | Setting | AP3D E / M / H | Checkpoint | Training log |
 |:---|:---|:---|:---|
-| KITTI Car (`monocop_car_satgeo`) | 34.75 / 24.85 / 21.20 | coming soon | [Training Log](assets/kitti_val.log) |
+| KITTI Car | 34.75 / 24.85 / 21.20 | coming soon | [Training Log](assets/kitti_val.log) |
 | KITTI 3-class (Ped / Cyc) | see Table IV | coming soon | |
 | nuScenes front camera | see Table VIII | coming soon | |
 
